@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="searchBarTint" format="color" />
+    <attr name="colorHandleBar" format="color" />
+</resources>

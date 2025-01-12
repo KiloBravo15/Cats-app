@@ -1,0 +1,24 @@
+<resources>
+<!--    Firebase    -->
+    <string name="default_web_client_id" translatable="false">webClientId.apps.googleusercontent.com</string>
+    <string name="app_name">Cat App</string>
+    <string name="search_hint">Search for a cat breed</string>
+    <string name="card_image">Cat image</string>
+    <string name="search_icon_text">Start typing to find a cat breed.</string>
+    <string name="no_results_text">There is not a breed %s in our database.</string>
+    <string name="go_back">Go back</string>
+    <string name="details_title">Details</string>
+    <string name="cat_image">Cat image</string>
+    <string name="link_to_webpage">Link to webpage</string>
+    <string name="find_out_more">Check on wikipedia</string>
+    <string name="login">Sign in / Sign up</string>
+    <string name="logout">Log out</string>
+    <string name="username_text">Not logged in</string>
+    <string name="log_out_text">Logged out</string>
+    <string name="log_in_text">Logged in</string>
+    <string name="log_in_failed_text">Login failed</string>
+    <string name="bookmark_icon">Bookmark icon</string>
+    <string name="explore">Explore</string>
+    <string name="search">Search</string>
+    <string name="favourites">Favourites</string>
+</resources>

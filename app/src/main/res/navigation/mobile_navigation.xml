@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <navigation android:id="@+id/navigation_home"
+        app:startDestination="@id/navigation_main_home">
+        <fragment
+            android:id="@+id/navigation_main_home"
+            android:name="com.am.catapp.ui.HomeFragment"
+            tools:layout="@layout/fragment_home"/>
+        <fragment
+            android:id="@+id/navigation_details_home"
+            android:name="com.am.catapp.ui.DetailsFragment"
+            tools:layout="@layout/fragment_details" />
+    </navigation>
+    <navigation android:id="@+id/navigation_search"
+        app:startDestination="@id/navigation_main_search">
+        <fragment
+            android:id="@+id/navigation_main_search"
+            android:name="com.am.catapp.ui.SearchFragment"
+            tools:layout="@layout/fragment_search"/>
+        <fragment
+            android:id="@+id/navigation_details_search"
+            android:name="com.am.catapp.ui.DetailsFragment"
+            tools:layout="@layout/fragment_details" />
+    </navigation>
+    <navigation android:id="@+id/navigation_saved"
+        app:startDestination="@id/navigation_main_saved">
+        <fragment
+            android:id="@+id/navigation_main_saved"
+            android:name="com.am.catapp.ui.SavedFragment"
+            tools:layout="@layout/fragment_saved"/>
+        <fragment
+            android:id="@+id/navigation_details_saved"
+            android:name="com.am.catapp.ui.DetailsFragment"
+            tools:layout="@layout/fragment_details" />
+    </navigation>
+
+</navigation>
